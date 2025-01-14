@@ -121,7 +121,7 @@ class GitHubImageUploader {
         if (success) {
             const urlParts = message.split('/main/');
             if (urlParts.length > 1) {
-                displayUrl = `https://image.wuaitech.workers.dev/${urlParts[1]}`;
+                displayUrl = `https://52ahao.github.io/pic/proxy/${urlParts[1]}`;
             }
         }
         

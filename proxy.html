@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Proxy</title>
+    <script>
+        // 从 URL 中获取图片路径
+        const imagePath = window.location.search.substring(1);
+        if (imagePath) {
+            // 重定向到 GitHub raw 链接
+            window.location.replace(`https://raw.githubusercontent.com/52ahao/pic/main/${imagePath}`);
+        }
+    </script>
+</head>
+<body>
+    Redirecting...
+</body>
+</html> 
