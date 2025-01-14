@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub图床上传工具</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GitHub图床上传工具</h1>
+        
+        <div class="config-section">
+            <input type="text" id="token" placeholder="输入GitHub Token" />
+            <input type="text" id="repo" placeholder="用户名/仓库名" />
+        </div>
+
+        <div class="upload-section">
+            <div class="upload-area" id="dropZone">
+                <p>拖拽文件到这里 或 点击上传</p>
+                <input type="file" id="fileInput" accept="image/*" multiple />
+            </div>
+        </div>
+
+        <div class="result-section">
+            <h3>上传结果</h3>
+            <div id="uploadResults"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
