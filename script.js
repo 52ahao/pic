@@ -117,20 +117,12 @@ class GitHubImageUploader {
         const resultItem = document.createElement('div');
         resultItem.className = `result-item ${success ? 'success' : 'error'}`;
         
-        let displayUrl = message;
-        if (success) {
-            const urlParts = message.split('/main/');
-            if (urlParts.length > 1) {
-                displayUrl = `https://52ahao.github.io/pic/proxy/${urlParts[1]}`;
-            }
-        }
-        
         resultItem.innerHTML = `
             <strong>${filename}</strong>
             ${success 
                 ? `<div class="url-box">
-                    <p>图片URL：${displayUrl}</p>
-                    <p>Markdown：![${filename}](${displayUrl})</p>
+                    <p>图片URL：${message}</p>
+                    <p>Markdown：![${filename}](${message})</p>
                    </div>`
                 : `<p>错误：${message}</p>`
             }
