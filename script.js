@@ -69,9 +69,30 @@ class GitHubImageUploader {
         });
     }
 
+    generateRandomFileName(fileExtension) {
+        const timestamp = new Date().toISOString().replace(/[-:]/g, '').split('.')[0];
+        const randomStr = Math.random().toString(36).substring(2, 10);
+        return `${timestamp}-${randomStr}${fileExtension}`;
+    }
+
+    getFileExtension(filename) {
+        return filename.slice((filename.lastIndexOf(".") - 1 >>> 0) + 1).toLowerCase();
+    }
+
+    generateTimePath() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        return `${year}/${month}/${day}`;
+    }
+
     async uploadToGitHub(filename, content, token, repo) {
         const [owner, repository] = repo.split('/');
-        const path = `images/${Date.now()}-${filename}`;
+        const fileExtension = this.getFileExtension(filename);
+        const randomFileName = this.generateRandomFileName(`.${fileExtension}`);
+        const timePath = this.generateTimePath();
+        const path = `images/${timePath}/${randomFileName}`;
         
         const response = await fetch(`https://api.github.com/repos/${owner}/${repository}/contents/${path}`, {
             method: 'PUT',
@@ -80,7 +101,7 @@ class GitHubImageUploader {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                message: `Upload ${filename}`,
+                message: `Upload image ${randomFileName}`,
                 content: content
             })
         });
