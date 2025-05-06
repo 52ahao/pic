@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "message": "获取成功",
+  "data": {
+    "edition_type": "uni应用ID",
+    "edition_number": "102",
+    "edition_name": "1.0.2版本",
+    "edition_desc": "1. 修复已知BUG\n2. 优化用户体验\n3. 新增功能A和功能B",
+    "edition_url": "https://你的服务器地址/update/应用ID.wgt",
+    "edition_issue": 1,
+    "edition_silence": 0,
+    "package_type": 1,
+    "version_type": "android",
+    "create_time": "2023-05-15 10:30:00"
+  }
+}
