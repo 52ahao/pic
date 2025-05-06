@@ -1,0 +1,30 @@
+{
+  "code": 200,
+  "message": "获取成功",
+  "data": [
+    {
+      "id": "1",
+      "title": "系统公告",
+      "content": "尊敬的用户，我们的应用已经更新了新功能，希望您体验愉快！",
+      "priority": 100,
+      "force_read": true,
+      "start_time": "2023-06-01 00:00:00",
+      "end_time": "2023-12-31 23:59:59",
+      "link": "https://example.com/notice/1",
+      "link_type": 0,
+      "auto_open": false
+    },
+    {
+      "id": "2",
+      "title": "活动通知",
+      "content": "新用户注册送好礼，点击查看详情",
+      "priority": 80,
+      "force_read": false,
+      "start_time": "2023-06-15 00:00:00",
+      "end_time": "2023-07-15 23:59:59",
+      "link": "/pages/activity/newuser",
+      "link_type": 1,
+      "auto_open": true
+    }
+  ]
+}
