@@ -3,9 +3,9 @@
   "message": "获取成功",
   "data": [
     {
-      "id": "1",
+      "id": "3",
       "title": "系统公告",
-      "content": "尊敬的用户，我们的应用已经更新了新功能，希望您体验愉快！",
+      "content": "全新版本，解除报毒，已适配学校：\n甘肃农业大学\n兰州交通大学",
       "priority": 100,
       "force_read": true,
       "start_time": "2023-06-01 00:00:00",
@@ -13,18 +13,6 @@
       "link": "https://example.com/notice/1",
       "link_type": 0,
       "auto_open": false
-    },
-    {
-      "id": "2",
-      "title": "活动通知",
-      "content": "新用户注册送好礼，点击查看详情",
-      "priority": 80,
-      "force_read": false,
-      "start_time": "2023-06-15 00:00:00",
-      "end_time": "2099-07-15 23:59:59",
-      "link": "/pages/activity/newuser",
-      "link_type": 1,
-      "auto_open": true
     }
   ]
 }
