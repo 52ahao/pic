@@ -1,12 +1,7 @@
 {
-  "notice": "欢迎使用我们的应用！请输入卡密继续使用或选择免费试用1小时",
-  "expiredNotice": "您的卡密已过期，请续费后继续使用",
-  "trialExpiredNotice": "免费试用已结束，请购买卡密继续使用",
-  "purchaseUrl": "https://68n.cn/tdaoL",
-  "showPurchase": true,
-  "openPurchaseInWebview": false,
-  "otherConfig": {
-    "contactInfo": "客服QQ: 123456789",
-    "supportEmail": "support@example.com"
+  "code": 200,
+  "data": {
+    "notice": "卡密使用须知：一机一码，严禁倒卖。",
+    "buy_url": "https://yourshop.com/buy"
   }
 }
