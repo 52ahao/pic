@@ -2,7 +2,7 @@
   "code": 200,
   "message": "获取成功",
   "data": {
-    "edition_type": "__UNI__C3B30A8",
+    "edition_type": "__UNI__97CF339",
     "edition_number": "101",
     "edition_name": "1.0.1版本",
     "edition_desc": "1. 修复ios上传图片失败1\n",
