@@ -3,8 +3,8 @@
   "message": "获取成功",
   "data": {
     "edition_type": "__UNI__97CF339",
-    "edition_number": "102",
-    "edition_name": "1.0.2版 本",
+    "edition_number": "100",
+    "edition_name": "1.0.0版本",
     "edition_desc": "1. 修复ios上传图片失败的bug\n",
     "edition_url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/52ahao/pic/refs/heads/main/gsau102.wgt",
     "edition_issue": 1,
