@@ -3,10 +3,10 @@
   "message": "获取成功",
   "data": {
     "edition_type": "__UNI__C3B30A8",
-    "edition_number": "102",
-    "edition_name": "1.0.2版本",
+    "edition_number": "103",
+    "edition_name": "1.0.3版本",
     "edition_desc": "1. 修复已知BUG\n",
-    "edition_url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/52ahao/pic/refs/heads/main/lanjiao102.wgt",
+    "edition_url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/52ahao/pic/refs/heads/main/lanjiao103.wgt",
     "edition_issue": 1,
     "edition_silence": 0,
     "package_type": 1,
