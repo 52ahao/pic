@@ -1,7 +1,7 @@
 {
   "code": 200,
   "data": {
-    "announcement": "请输入卡密以继续使用，没有卡密？点击"购买卡密"按钮获取",
+    "announcement": "请输入卡密以继续使用，没有卡密？点击购买卡密按钮获取",
     "purchase_link": "https://example.com/buy",
     "link_type": 0
   }
