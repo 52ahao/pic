@@ -3,16 +3,16 @@
   "message": "获取成功",
   "data": [
     {
-      "id": "6",
+      "id": "8",
       "title": "系统公告",
-      "content": "月卡用户添加微信 wuaiuuu 免费刷课\n\n运动会期间推荐下载送天卡",
+      "content": "全新版本，已适配所有学校，去下载？",
       "priority": 100,
       "force_read": true,
       "start_time": "2023-06-01 00:00:00",
       "end_time": "2099-12-31 23:59:59",
-      "link": "",
+      "link": "https://www.qianxun1688.com/details/F01F123A",
       "link_type": 0,
-      "auto_open": false
+      "auto_open": true
     }
   ]
 }
